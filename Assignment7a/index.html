@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment7a</title>
+  </head>
+  <body>
+    <script>
+      let Name = prompt("enter the Employee Name");
+      let Id = +prompt("enter the Id");
+      let Salary = +prompt("enter the Salary");
+      console.log(`name:${Name}`);
+      console.log(`Id:${Id}`);
+      console.log(`Salary:${Salary}`);
+
+      let ta = 0.15 * Salary;
+      let da = 0.35 * Salary;
+      let grossSalary = Salary + ta + da;
+      console.log(grossSalary);
+    </script>
+  </body>
+</html>
